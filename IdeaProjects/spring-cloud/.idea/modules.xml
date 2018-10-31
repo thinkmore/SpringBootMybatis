@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ms-consumer-order-ribbon/ms-consumer-order-ribbon.iml" filepath="$PROJECT_DIR$/ms-consumer-order-ribbon/ms-consumer-order-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-provider-user/ms-privider-user.iml" filepath="$PROJECT_DIR$/ms-provider-user/ms-privider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-eureka-server/study.iml" filepath="$PROJECT_DIR$/ms-eureka-server/study.iml" />
+    </modules>
+  </component>
+</project>

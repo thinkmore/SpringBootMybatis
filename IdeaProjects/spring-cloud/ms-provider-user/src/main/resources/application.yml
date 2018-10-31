@@ -1,0 +1,27 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: microservice-provider-user
+  jackson:
+       serialization:
+         FAIL_ON_EMPTY_BEANS: false
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true    ##表示将自己的ip注册到eureka server
